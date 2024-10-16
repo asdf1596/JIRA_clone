@@ -3,9 +3,9 @@ import { SignUpCard } from "@/features/auth/components/sign-up";
 
 const SignUpPage = () => {
     return (
-        <div>
-            <SignUpCard />
-        </div>
+        //<div>
+        <SignUpCard />
+        //</div>
     );
 };
 
