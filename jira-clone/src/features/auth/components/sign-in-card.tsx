@@ -16,7 +16,7 @@ import {
 } from "@/components/ui/form";
 import Link from "next/link";
 import { loginSchema } from "../schema";
-import { useLogin } from "../api/use login";
+import { useLogin } from "../api/use-login";
 
 export const SignInCard = () => {
     const { mutate } = useLogin();
