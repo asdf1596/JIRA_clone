@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { useLogout } from "@/features/auth/api/use-logout";
-import { useCurrent } from "@/features/auth/api/user-current";
+import { useCurrent } from "@/features/auth/api/use-current";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
