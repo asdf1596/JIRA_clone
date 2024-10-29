@@ -8,9 +8,5 @@ export default async function Home() {
     //console.log({ user });
 
     if (!user) redirect("/sign-in");
-    return (
-        <div>
-            <UserButton />
-        </div>
-    );
+    return <div>This is home page</div>;
 }
